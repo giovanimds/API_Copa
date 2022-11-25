@@ -8,11 +8,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f88f99e6-8f3b-4df3-a871-ba923c260985" name="Changes" comment="" />
+    <list default="true" id="f88f99e6-8f3b-4df3-a871-ba923c260985" name="Changes" comment="commit inicial">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API_Copa.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API_Copa.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/JogoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/JogoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/ContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/ContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folhas.db" beforeDir="false" afterPath="$PROJECT_DIR$/folhas.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/API_Copa.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/API_Copa.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/refint/API_Copa.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/refint/API_Copa.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8c54972f91e9f1369a47cbb0a8a950e5e423d1e344b06b2fe0849c2f6189f0/SingleQueryingEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,6 +50,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API_Copa">
@@ -76,8 +97,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669327564705</updated>
-      <workItem from="1669327569900" duration="1804000" />
+      <workItem from="1669327569900" duration="7341000" />
     </task>
+    <task id="LOCAL-00001" summary="commit inicial">
+      <created>1669329914095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669329914095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +127,65 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="commit inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/JogoController.cs</url>
+          <line>23</line>
+          <properties documentPath="C:\Users\giova\Desktop\API_Copa\Controllers\JogoController.cs" initialLine="22" containingFunctionPresentation="method 'Cadastrar'">
+            <startOffsets>
+              <option value="590" />
+            </startOffsets>
+            <endOffsets>
+              <option value="648" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/JogoController.cs</url>
+          <line>24</line>
+          <properties documentPath="C:\Users\giova\Desktop\API_Copa\Controllers\JogoController.cs" initialLine="23" containingFunctionPresentation="method 'Cadastrar'">
+            <startOffsets>
+              <option value="661" />
+            </startOffsets>
+            <endOffsets>
+              <option value="719" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/JogoController.cs</url>
+          <line>34</line>
+          <properties documentPath="C:\Users\giova\Desktop\API_Copa\Controllers\JogoController.cs" initialLine="34" containingFunctionPresentation="method 'Listar'">
+            <startOffsets>
+              <option value="949" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1042" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/JogoController.cs</url>
+          <line>42</line>
+          <properties documentPath="C:\Users\giova\Desktop\API_Copa\Controllers\JogoController.cs" initialLine="42" containingFunctionPresentation="method 'Buscar'">
+            <startOffsets>
+              <option value="1255" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1368" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
