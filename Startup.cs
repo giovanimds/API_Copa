@@ -20,6 +20,7 @@ namespace API_Copa
     {
         public Startup(IConfiguration configuration)
         {
+            
             Configuration = configuration;
         }
 
@@ -28,6 +29,7 @@ namespace API_Copa
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.AddCors(
                 options =>
                 {
@@ -42,7 +44,7 @@ namespace API_Copa
             (
                 options => options.UseSqlite("DataSource=folhas.db;Cache=shared")
             );
-
+            
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

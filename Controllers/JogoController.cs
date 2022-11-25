@@ -32,7 +32,10 @@ namespace api.Controllers
         [Route("listar")]
         public IActionResult Listar()
         {
-            List<Jogo> jogos = _context.Jogos.Include(x => x.SelecaoA).Include(x => x.SelecaoB).ToList();
+            List<Jogo> jogos = _context.Jogos
+                .Include(t => t.SelecaoA)
+                .Include(t => t.SelecaoB)
+                .ToList();
             return jogos.Count != 0 ? Ok(jogos) : NotFound();
         }
         
@@ -40,8 +43,32 @@ namespace api.Controllers
         [Route("buscar/{id:int}")]
         public IActionResult Buscar([FromRoute] int id)
         {
-            return Ok(_context.Jogos.Include(x => x.SelecaoA).Include(x => x.SelecaoB).FirstOrDefault(x => x.Id.Equals(id)));
+            Jogo jogo = _context.Jogos.Single(x => x.Id.Equals(id));
+
+            _context.Entry(jogo).Reference(x => x.SelecaoA).Load();
+            _context.Entry(jogo).Reference(x => x.SelecaoB).Load();
+            
+            return Ok(jogo);
         }
 
+        [HttpPost]
+        [Route("palpite")]
+        public IActionResult CadastrarPalpite([FromBody] Palpite palpite)
+        {
+            Selecao Selecao1 = _context.Selecoes.Find(palpite.Jogo.SelecaoA.Id);
+            Selecao Selecao2 = _context.Selecoes.Find(palpite.Jogo.SelecaoB.Id);
+
+            
+            palpite.Jogo = _context.Jogos
+                .First(x => x.Id.Equals(palpite.Jogo.Id));
+
+            palpite.Jogo.SelecaoA = Selecao1;
+            palpite.Jogo.SelecaoB = Selecao2;
+            
+            _context.Palpites.Add(palpite);
+            _context.SaveChanges();
+            
+            return Ok(palpite);
+        }
     }
 }

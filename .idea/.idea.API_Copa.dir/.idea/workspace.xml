@@ -9,17 +9,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88f99e6-8f3b-4df3-a871-ba923c260985" name="Changes" comment="commit inicial">
+      <change afterPath="$PROJECT_DIR$/Models/Palpite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API_Copa.dir/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API_Copa.dir/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API_Copa.dir/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API_Copa.dir/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API_Copa.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API_Copa.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Copa.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API_Copa.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/JogoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/JogoController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Migrations/ContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/ContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Context.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Jogo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Jogo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/API_Copa.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/folhas.db" beforeDir="false" afterPath="$PROJECT_DIR$/folhas.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folhas.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/folhas.db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folhas.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/folhas.db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/API_Copa.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/API_Copa.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/API_Copa.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/API_Copa.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/API_Copa.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/API_Copa.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/API_Copa.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/refint/API_Copa.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/refint/API_Copa.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,36 +48,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8c54972f91e9f1369a47cbb0a8a950e5e423d1e344b06b2fe0849c2f6189f0/SingleQueryingEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I0nqpWUVKLe3aKq06BcWLhf59J" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API_Copa">
     <configuration name="API_Copa" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API_Copa.csproj" />
@@ -98,6 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669327564705</updated>
       <workItem from="1669327569900" duration="7341000" />
+      <workItem from="1669341758973" duration="8830000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial">
       <created>1669329914095</created>
@@ -136,54 +159,34 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Controllers/JogoController.cs</url>
           <line>23</line>
-          <properties documentPath="C:\Users\giova\Desktop\API_Copa\Controllers\JogoController.cs" initialLine="22" containingFunctionPresentation="method 'Cadastrar'">
-            <startOffsets>
-              <option value="590" />
-            </startOffsets>
-            <endOffsets>
-              <option value="648" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\giova\Desktop\API_Copa\Controllers\JogoController.cs" initialLine="22" containingFunctionPresentation="method 'Cadastrar'" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Controllers/JogoController.cs</url>
-          <line>24</line>
-          <properties documentPath="C:\Users\giova\Desktop\API_Copa\Controllers\JogoController.cs" initialLine="23" containingFunctionPresentation="method 'Cadastrar'">
+          <line>57</line>
+          <properties documentPath="C:\Users\Planejamento_Itau\RiderProjects\API_Copa\Controllers\JogoController.cs" initialLine="57" containingFunctionPresentation="method 'CadastrarPalpite'">
             <startOffsets>
-              <option value="661" />
+              <option value="1695" />
             </startOffsets>
             <endOffsets>
-              <option value="719" />
+              <option value="1763" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Controllers/JogoController.cs</url>
           <line>34</line>
-          <properties documentPath="C:\Users\giova\Desktop\API_Copa\Controllers\JogoController.cs" initialLine="34" containingFunctionPresentation="method 'Listar'">
+          <properties documentPath="C:\Users\Planejamento_Itau\RiderProjects\API_Copa\Controllers\JogoController.cs" initialLine="34" containingFunctionPresentation="method 'Listar'">
             <startOffsets>
               <option value="949" />
             </startOffsets>
             <endOffsets>
-              <option value="1042" />
+              <option value="1093" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Controllers/JogoController.cs</url>
-          <line>42</line>
-          <properties documentPath="C:\Users\giova\Desktop\API_Copa\Controllers\JogoController.cs" initialLine="42" containingFunctionPresentation="method 'Buscar'">
-            <startOffsets>
-              <option value="1255" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1368" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

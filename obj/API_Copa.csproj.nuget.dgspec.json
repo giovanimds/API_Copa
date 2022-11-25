@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giova\\Desktop\\API_Copa\\API_Copa.csproj": {}
+    "C:\\Users\\Planejamento_Itau\\RiderProjects\\API_Copa\\API_Copa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giova\\Desktop\\API_Copa\\API_Copa.csproj": {
+    "C:\\Users\\Planejamento_Itau\\RiderProjects\\API_Copa\\API_Copa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giova\\Desktop\\API_Copa\\API_Copa.csproj",
+        "projectUniqueName": "C:\\Users\\Planejamento_Itau\\RiderProjects\\API_Copa\\API_Copa.csproj",
         "projectName": "API_Copa",
-        "projectPath": "C:\\Users\\giova\\Desktop\\API_Copa\\API_Copa.csproj",
-        "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giova\\Desktop\\API_Copa\\obj\\",
+        "projectPath": "C:\\Users\\Planejamento_Itau\\RiderProjects\\API_Copa\\API_Copa.csproj",
+        "packagesPath": "C:\\Users\\Planejamento_Itau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Planejamento_Itau\\RiderProjects\\API_Copa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Planejamento_Itau\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,13 +38,27 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
             },
@@ -72,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

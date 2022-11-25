@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\giova\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\giova\\.nuget\\packages"
+      "C:\\Users\\Planejamento_Itau\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Planejamento_Itau\\.nuget\\packages"
     ]
   }
 }
